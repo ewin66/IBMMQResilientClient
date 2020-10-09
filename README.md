@@ -5,7 +5,7 @@ dotnet core client for IBM MQ with built-in resiliency and the ability to connec
  - Retry capability via Polly.
  - TLS support(optional).
 ## Retry:
- - Polly is used for resiliency and the retry option allows for exponential backoff.
+ - [Polly](https://github.com/App-vNext/Polly) is used for resiliency and the retry option allows for exponential backoff.
  ```
  // Retry a specified number of times, using a function to 
 // calculate the duration to wait between retries based on 
